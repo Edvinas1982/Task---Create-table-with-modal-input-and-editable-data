@@ -1,0 +1,1 @@
+Task - create table with data: Car number, date, time, distance, speed and two buttons - edit and delete. All data information must be entered via modal windows with inputs. This opening windows must have four input fields and two butons - confirm and cancel.
