@@ -346,57 +346,39 @@ template {
   display: none;
 }
 
-.plotis {
+.modal {
+  display: none;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.modal__inner {
+  margin-top: 160px;
+  max-width: 440px;
+  padding: 40px, 20px;
+  background: aliceblue;
+  padding: 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  padding-right: 15px;
 }
 
-.plotis p {
-  margin-bottom: 2px;
-  margin-top: 50px;
+.modal--active {
+  display: block;
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.modal-form__input {
+  width: 100%;
+  padding: 5px;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.staciakampis {
-  border: solid 2px;
-  padding: 0 10px;
-}
-
-.aukstis p {
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.perimetras, .plotas, .istrizaine {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#atsakymas {
-  margin: 0 auto;
-  padding-left: 5px;
-}
-
-#atsakymasPL {
-  margin: 0 auto;
-  padding-left: 5px;
-}
-
-#atsakymasIS {
-  margin: 0 auto;
-  padding-left: 5px;
+.button-holder {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
