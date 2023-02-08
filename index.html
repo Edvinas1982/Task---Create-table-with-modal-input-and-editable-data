@@ -17,12 +17,18 @@
       <div id="modal1" class="modal">
         <div class="modal__inner">
           <h2 class="modal__heading">
-            Please add data
+            Please fill labels below
           </h2>
           <form class="modal-form" action="">
-            <input id="data1" class="modal-form__input" type="text">
-            <input id="data2" class="modal-form__input" type="text">
-          </form>
+            <label for="phone">Select a date:</label>
+            <input id="date" class="modal-form__input" type="date">
+            <label for="phone">Enter a car plate number:</label>
+            <input id="plate" class="modal-form__input" type="text" placeholder="ABC123">
+            <label for="phone">Enter a distance in meters:</label>
+            <input id="distance" class="modal-form__input" type="text" placeholder="800">
+            <label for="phone">Enter a time in seconds:</label>
+            <input id="time" class="modal-form__input" type="text" placeholder="20">
+       </form>
           <div class="button-holder">
             <button id="confirm" class="button-holder__red">Confirm</button>
             <button id="cancel" class="button-holder__green">Cancel</button>
